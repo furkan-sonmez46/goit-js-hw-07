@@ -12,3 +12,28 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* TASK-1 */
+
+#categories {
+  margin: 0;
+  padding: 24px;
+}
+
+.item {
+  background-color: #f6f6fe;
+  list-style: none;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.item ul {
+  list-style: none;
+}
+
+.item li {
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
