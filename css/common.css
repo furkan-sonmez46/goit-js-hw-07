@@ -37,3 +37,20 @@ body {
   border-radius: 4px;
   margin-top: 8px;
 }
+
+
+/* TASK-2  */
+.gallery {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 1128px;
+  margin: auto;
+}
+
+.gallery img {
+  width: 360px;
+}
