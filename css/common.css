@@ -54,3 +54,11 @@ body {
 .gallery img {
   width: 360px;
 }
+
+/* TASK-3 */
+
+input {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
