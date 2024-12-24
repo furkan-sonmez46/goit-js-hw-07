@@ -25,3 +25,18 @@ const images = [
   }
 ];
 
+const gallery = document.querySelector(".gallery");
+
+images.forEach((image) => {
+   const galleryList = document.createElement('li');
+   const galleryImg = document.createElement('img');
+  galleryImg.src = image.url;
+  galleryImg.alt = image.alt;
+  galleryList.appendChild(galleryImg);
+  gallery.appendChild(galleryList);
+});
+
+
+
+
+
