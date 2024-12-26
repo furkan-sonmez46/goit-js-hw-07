@@ -84,3 +84,27 @@ input {
 .widget {
   text-align: center;
 }
+
+/*TASK-6*/
+.destroy {
+  background-color: #ff4e4e;
+}
+
+#controls {
+  background-color: #f6f6fe;
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  display: flex;
+  padding: 32px;
+  gap: 44px;
+}
+
+.boxCSS {
+  flex-shrink: 0;
+}
