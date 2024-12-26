@@ -69,6 +69,7 @@ input {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  
 }
 
 .btn-1 {
@@ -83,6 +84,17 @@ input {
 /*TASK-5*/
 .widget {
   text-align: center;
+}
+
+.change-color {
+  width: 120px;
+  height: 40px;
+  margin-top: 8px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
 }
 
 /*TASK-6*/
