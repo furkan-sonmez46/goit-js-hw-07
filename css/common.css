@@ -106,6 +106,14 @@ input {
 }
 
 /*TASK-6*/
+.input {
+  width: 150px;
+}
+
+.input {
+
+}
+
 .create {
   width: 120px;
   height: 40px;
@@ -116,6 +124,10 @@ input {
   border-radius: 8px;
 }
 
+.create:hover {
+  background-color: #6C8CFF;
+}
+
 .destroy {
   width: 120px;
   height: 40px;
@@ -124,6 +136,10 @@ input {
   padding: 8px 16px;
   border: none;
   border-radius: 8px;
+}
+
+.destroy:hover {
+  background-color: #FF7070;
 }
 
 #controls {
