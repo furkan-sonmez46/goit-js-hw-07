@@ -52,7 +52,13 @@ body {
 }
 
 .gallery img {
-  width: 360px;
+width: 360px;
+height: 300px;
+top: 100px;
+left: 540px;
+gap: 0px;
+opacity: 0px;
+
 }
 
 /* TASK-3 */
