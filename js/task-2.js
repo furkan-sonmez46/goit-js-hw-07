@@ -25,17 +25,10 @@ const images = [
   }
 ];
 
-const gallery = document.querySelector(".gallery");
+const galleryList = document.querySelector('.gallery');
+const galleryListItems = images.map(image =>`<li class="list-item"><img class="list-item-img" src="${image.url}" alt="${image.alt}"></li>`).join('');
 
-images.forEach((image) => {
-   const galleryList = document.createElement('li');
-   const galleryImg = document.createElement('img');
-  galleryImg.src = image.url;
-  galleryImg.alt = image.alt;
-  galleryList.appendChild(galleryImg);
-  gallery.appendChild(galleryList);
-});
-
+galleryList.insertAdjacentHTML('beforeend', galleryListItems);
 
 
 
